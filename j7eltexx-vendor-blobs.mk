@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7eltexx/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     vendor/samsung/j7eltexx/proprietary/vendor/firmware/bcm43430A1_V0032.0076.hcd:system/vendor/firmware/bcm43430A1_V0032.0076.hcd \
     vendor/samsung/j7eltexx/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+    vendor/samsung/j7eltexx/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/samsung/j7eltexx/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/j7eltexx/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/j7eltexx/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
@@ -113,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7eltexx/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/j7eltexx/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/j7eltexx/proprietary/bin/icd:system/bin/icd \
-    vendor/samsung/j7eltexx/proprietary/bin/cbd:system/bin/cbd \
     vendor/samsung/j7eltexx/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/j7eltexx/proprietary/vendor/firmware/fimc_is_fd.bin:system/vendor/firmware/fimc_is_fd.bin \
     vendor/samsung/j7eltexx/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
@@ -124,9 +124,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7eltexx/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
     vendor/samsung/j7eltexx/proprietary/bin/cs:system/bin/cs \
     vendor/samsung/j7eltexx/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
+    vendor/samsung/j7eltexx/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/j7eltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/j7eltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/j7eltexx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/j7eltexx/proprietary/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
+    vendor/samsung/j7eltexx/proprietary/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
     vendor/samsung/j7eltexx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/j7eltexx/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/j7eltexx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
